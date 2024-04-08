@@ -10,7 +10,6 @@ int main(){
 		printf("Enter Temp in Farenhite: ");
 		scanf("%f",&temp);
 		
-	//	int output=(temp-32)*5/9;
 	//  function call
 		float output=tempConversion(temp);
 		printf("Temperature in Celcius: %f",output);
